@@ -1,6 +1,13 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
-}
+  heading: "Ready to Transform Your Business?",
+  subheading:
+    "Discover how EXP Tech can help you unify operations, empower your workforce, and scale with confidence. Let’s discuss a solution tailored to your needs.",
+  primaryAction: {
+    label: "Get a Free Consultation",
+    href: "/contact", // or external link
+  },
+  secondaryAction: {
+    label: "Learn More About Our Solutions",
+    href: "/services",
+  },
+};

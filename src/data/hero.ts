@@ -1,7 +1,7 @@
 // create met the copy for company website as software house company
 export const heroDetails = {
-  heading: "Extraordinary,  Experienced and Professional",
+  heading: "Transform Your Business with ERP & HRIS Solutions",
   subheading:
-    "We are a team of experienced professionals dedicated to helping you succeed in the digital world.",
+    "We help growing companies streamline operations, automate workflows, and empower their workforce through tailored technology solutions.",
   centerImageSrc: "/images/hero-mockup.webp",
 };

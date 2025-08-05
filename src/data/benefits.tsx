@@ -1,72 +1,65 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiBriefcase,
+  FiDatabase,
+  FiUsers,
+  FiTarget,
+  FiTrendingUp,
+} from "react-icons/fi";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-]
+  {
+    title: "ERP Solutions",
+    description:
+      "Unify your business operations with powerful ERP systems. We integrate finance, supply chain, sales, and manufacturing into a single platform for a 360-degree view of your operations—driving efficiency, insight, and growth.",
+    bullets: [
+      {
+        title: "Centralized Data Management",
+        description:
+          "Eliminate data silos by connecting finance, inventory, and operations into one source of truth.",
+        icon: <FiDatabase size={26} />,
+      },
+      {
+        title: "Process Automation",
+        description:
+          "Automate repetitive workflows to reduce errors and improve operational efficiency.",
+        icon: <FiTrendingUp size={26} />,
+      },
+      {
+        title: "Real-Time Insights",
+        description:
+          "Gain actionable analytics to make data-driven decisions and forecast business performance.",
+        icon: <FiBarChart2 size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-1.webp",
+  },
+  {
+    title: "HRIS Solutions",
+    description:
+      "Manage your people smarter with modern HRIS solutions. From recruitment and payroll to performance and analytics, we help you optimize the employee experience and unlock workforce productivity.",
+    bullets: [
+      {
+        title: "Streamlined Recruitment",
+        description:
+          "Simplify hiring with integrated applicant tracking and onboarding tools.",
+        icon: <FiTarget size={26} />,
+      },
+      {
+        title: "Employee Lifecycle Management",
+        description:
+          "Manage payroll, benefits, and performance reviews seamlessly in one platform.",
+        icon: <FiUsers size={26} />,
+      },
+      {
+        title: "Workforce Analytics",
+        description:
+          "Leverage data-driven insights to improve retention, engagement, and productivity.",
+        icon: <FiBriefcase size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-2.webp",
+  },
+];
