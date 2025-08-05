@@ -5,11 +5,40 @@ import {
   FiUsers,
   FiTarget,
   FiTrendingUp,
+  FiMap,
+  FiLayers,
+  FiShield,
 } from "react-icons/fi";
 
 import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
+  {
+    title: "IT Consulting",
+    description:
+      "We map your business goals to a clear technology roadmap, ensuring every investment delivers maximum ROI.",
+    bullets: [
+      {
+        title: "Technology Roadmapping",
+        description:
+          "Align IT strategy with your business vision, ensuring every system and tool supports long-term growth.",
+        icon: <FiMap size={26} />,
+      },
+      {
+        title: "System Architecture & Integration",
+        description:
+          "Design scalable architectures and ensure seamless integration across all your digital platforms.",
+        icon: <FiLayers size={26} />,
+      },
+      {
+        title: "Risk & Compliance Advisory",
+        description:
+          "Mitigate risks and meet regulatory requirements with expert guidance on security and compliance.",
+        icon: <FiShield size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-1.webp",
+  },
   {
     title: "ERP Solutions",
     description:

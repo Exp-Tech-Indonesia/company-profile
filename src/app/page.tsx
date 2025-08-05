@@ -6,6 +6,7 @@ import Container from "@/components/Container";
 import Section from "@/components/Section";
 import Stats from "@/components/Stats";
 import CTA from "@/components/CTA";
+import WhyUs from "@/components/WhyUs";
 
 const HomePage: React.FC = () => {
   return (
@@ -13,16 +14,16 @@ const HomePage: React.FC = () => {
       <Hero />
       <Logos />
       <Container>
-        <Benefits />
-
-        {/* <Section
-          id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+        <Section id="Why Us" title="Why Us" description="">
+          <WhyUs />
+        </Section>
+        <Section
+          id="Our Core Service"
+          title="Our Core Service"
+          description="Solutions tailored for your business's unique needs."
         >
-          <Pricing />
-        </Section> */}
-
+          <Benefits />
+        </Section>
         <Section
           id="testimonials"
           title="What Our Clients Say"
@@ -30,11 +31,7 @@ const HomePage: React.FC = () => {
         >
           <Testimonials />
         </Section>
-
-        {/* <FAQ /> */}
-
         <Stats />
-
         <CTA />
       </Container>
     </>
