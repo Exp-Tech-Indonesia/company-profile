@@ -1,5 +1,7 @@
+// create met the copy for company website as software house company
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
-}
+  heading: "Extraordinary,  Experienced and Professional",
+  subheading:
+    "We are a team of experienced professionals dedicated to helping you succeed in the digital world.",
+  centerImageSrc: "/images/hero-mockup.webp",
+};
